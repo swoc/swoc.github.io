@@ -239,6 +239,16 @@ a:hover {
   color: var(--text-muted);
   font-size: 0.95rem;
 }
+.timeline .job-desc .role-phase {
+  font-weight: 600;
+  color: var(--text);
+  font-size: 0.95rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.35rem;
+}
+.timeline .job-desc .role-phase:first-child {
+  margin-top: 0;
+}
 .timeline .job-desc ul {
   padding-left: 1.25rem;
   margin-bottom: 0;
@@ -311,6 +321,10 @@ a:hover {
 .education-section .desc,
 .education-section .education-body {
   color: var(--text-muted);
+}
+
+.education-section .item-inner {
+  text-align: center;
 }
 
 .contact-section {

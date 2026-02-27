@@ -8,7 +8,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
         <script defer src="fontawesome.js"></script>
-        <title>Andres Pihlak · Senior Backend / Platform Engineer (Python); Production-Scale Systems & Automation</title>
+        <title>Andres Pihlak · Senior Backend Engineer (Platform &amp; Distributed Systems)</title>
         <link id="theme-style" rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="enhancements.css">
     </head>
@@ -16,7 +16,7 @@
     <header class="header">
         <div class="top-bar container-fluid">
             <div class="actions">
-                <a class="btn d-none d-md-inline-block" href="mailto:pihlak.andres@gmail.com"><i class="fas fa-paper-plane" aria-hidden="true"></i> Hire Me</a>
+                <a class="btn d-none d-md-inline-block" href="mailto:pihlak.andres@gmail.com"><i class="fas fa-paper-plane" aria-hidden="true"></i> Let's Talk</a>
             </div>
             <ul class="social list-inline">
                 <li class="list-inline-item"><a href="https://www.linkedin.com/in/some-random-161391150"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
@@ -29,9 +29,9 @@
             <div class="container text-center">
                 <img class="profile-image" src="profile.png" alt="Andres Pihlak">
                 <h1 class="name">Andres Pihlak</h1>
-                <div class="title">Senior Software Engineer</div>
+                <div class="title">Senior Backend Engineer (Platform &amp; Distributed Systems)</div>
                 <div class="profile">
-                    <p>Senior Backend &amp; Systems Engineer with 15+ years of experience building scalable backend platforms, leading complex migrations, and optimizing production systems for reliability and performance. Deep expertise in Python, distributed systems, cloud platforms, orchestration, and automation. Looking for senior/architect roles in high-scale SaaS environments where I can own backend architecture and delivery outcomes.</p>
+                    <p>Senior Backend & Systems Engineer with 15+ years of experience building and scaling production systems in high-growth SaaS environments. Led greenfield product architecture, modernized legacy platforms, and owned data-intensive backend systems operating at scale. Deep expertise in Python, PostgreSQL performance, distributed systems, and cloud-native infrastructure. Thrive in roles with architectural ownership and high delivery accountability.</p>
                 </div>
             </div>
         </div>
@@ -49,10 +49,10 @@
             <div id="page-nav-wrapper" class="page-nav-wrapper text-center">
                 <div class="container">
                     <ul id="page-nav" class="nav page-nav list-inline">
-                        <li class="nav-item"><a class="scrollto nav-link" href="#introduction-section">Professional Summary</a></li>
-                        <li class="nav-item"><a class="scrollto nav-link" href="#experiences-section">Experiences</a></li>
-                        <li class="nav-item"><a class="scrollto nav-link" href="#education-section">Education</a></li>
+                        <li class="nav-item"><a class="scrollto nav-link" href="#highlights-section">Highlights</a></li>
+                        <li class="nav-item"><a class="scrollto nav-link" href="#experiences-section">Experience</a></li>
                         <li class="nav-item"><a class="scrollto nav-link" href="#skills-section">Skills</a></li>
+                        <li class="nav-item"><a class="scrollto nav-link" href="#education-section">Education</a></li>
                         <li class="nav-item"><a class="scrollto nav-link" href="#certificates-section">Certificates</a></li>
                         <li class="nav-item"><a class="scrollto nav-link" href="#contact-section">Contact</a></li>
                     </ul>
@@ -63,10 +63,18 @@
     </header>
 
     <div class="wrapper container">
-        <section id="introduction-section" class="experiences-section section">
-            <h2 class="section-title">Professional Summary</h2>
-                <p>Senior Backend &amp; Systems Engineer with 15+ years of experience building scalable backend platforms, leading complex migrations, and optimizing production systems for reliability and performance. Deep expertise in Python, distributed systems, cloud platforms, orchestration, and automation. Looking for senior/architect roles in high-scale SaaS environments where I can own backend architecture and delivery outcomes.</p>
+        <section id="highlights-section" class="experiences-section section">
+            <h2 class="section-title">Selected Impact Highlights</h2>
+            <ul>
+                <li>Built biometric authentication system from scratch, now running with 99.99% uptime in production.</li>
+                <li>Reduced PostgreSQL trigger execution time from 20 minutes to 2 minutes (90% improvement).</li>
+                <li>Consolidated 5 underperforming bare-metal servers into 1 optimized machine, reducing infra costs by 45% and failure surface.</li>
+                <li>Reduced production incidents by ~30% through CI/CD standardization.</li>
+                <li>Led team formation and hiring for a new product line, from charter to onboarding.</li>
+                <li>Modernized data pipeline architecture supporting satellite products.</li>
+            </ul>
         </section>
+
         <section id="experiences-section" class="experiences-section section">
             <h2 class="section-title">Work Experiences</h2>
             <div class="timeline">
@@ -80,10 +88,12 @@
                     </div>
                     <div class="job-desc">
                         <ul>
-                            <li>Joined as senior engineer to modernize and optimize core software systems, improving reliability of data processing pipelines that support satellite and geospatial products.</li>
-                            <li>Ensured reliability, security, and compliance for backend systems in production environments; owned data platform and product‑technical direction to keep delivery moving without handoff friction.</li>
-                            <li>Introduced more scalable patterns and automation around deployment, monitoring, and testing, reducing operational toil and making it easier to safely ship changes.</li>
-                            <li>Designed and built backend and tooling components where off‑the‑shelf options were insufficient, enabling new product capabilities and experimentation.</li>
+                            <li>Led full modernization of legacy stack (Python 2 → 3), containerizing services and standardizing production deployments.</li>
+                            <li>Upgraded Airflow 2 → 3 and redesigned orchestration architecture for scalable workload management.</li>
+                            <li>Designed automation architecture using Airflow, Kafka, Kubernetes, and Terraform for dynamic VM provisioning and load balancing to reduce operational overhead and improve scalability.</li>
+                            <li>Replaced static cron-based data ingestion with event-driven product crawler, reducing wasted compute and increasing pipeline reliability.</li>
+                            <li>Built ML execution pipelines enabling self-service production runs by data scientists.</li>
+                            <li>Designed dynamic QC workflow allowing on-demand validation rather than batch-based waiting cycles.</li>
                         </ul>
                     </div>
                 </div>
@@ -92,68 +102,63 @@
                         <h3 class="place">Veriff OÜ</h3>
                     </div>
                     <div class="job-meta">
-                        <div class="title">Senior Software Engineer (Data Platform)</div>
-                        <div class="time">03.2023 - 01.2025</div>
+                        <div class="title">Senior Software Engineer / Team Lead</div>
+                        <div class="time">2019 – 2025</div>
                     </div>
                     <div class="job-desc">
+                        <p class="role-phase">AuthTech (Team Lead, 2022–2023)</p>
                         <ul>
-                            <li>Owned core data platform components with a focus on scalability and maintainability, ensuring business‑critical analytics and reporting pipelines ran reliably.</li>
-                            <li>Redesigned database schemas and queries on PostgreSQL to remove bottlenecks and improve performance for high‑volume workloads.</li>
-                            <li>Hardened data workflows and governance (backfills, migrations, retention, access patterns) to reduce operational risk and on‑call noise.</li>
-                            <li>Collaborated with product and analytics teams to make data easier to discover and use, increasing the impact of the platform across the company.</li>
+                            <li>Founded team (0 → 5 engineers)</li>
+                            <li>Architected biometric auth platform</li>
+                            <li>99.99% uptime in production</li>
+                            <li>Low-latency design; adoption across product</li>
                         </ul>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="work-place">
-                        <h3 class="place">Veriff OÜ</h3>
-                    </div>
-                    <div class="job-meta">
-                        <div class="title">Team Lead / Senior Software Engineer (AuthTech)</div>
-                        <div class="time">02.2022 - 03.2023</div>
-                    </div>
-                    <div class="job-desc">
+                        <p class="role-phase">Data Platform (Senior, 2023–2025)</p>
                         <ul>
-                            <li>Created and led the AuthTech team from scratch, defining vision, roadmap, and architecture for a new biometric authentication product.</li>
-                            <li>Designed and implemented backend systems for Veriff’s Biometric Authentication, focusing on security, fault‑tolerance, and low‑latency user flows.</li>
-                            <li>Hired, onboarded, and coached engineers, building a high‑performing team that consistently delivered on ambitious timelines.</li>
-                            <li>Drove adoption of the product across the company and with customers; the system has operated with effectively zero downtime in production.</li>
+                            <li>Owned core data platform</li>
+                            <li>Improved reliability and reduced operational overhead for PostgreSQL</li>
+                            <li>Governance hardening; reduced on-call noise</li>
+                        </ul>
+                        <p class="role-phase">ML Systems (2019–2022)</p>
+                        <ul>
+                            <li>Productionized ML pipelines</li>
+                            <li>Built end-to-end model lifecycle systems</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="item">
                     <div class="work-place">
-                        <h3 class="place">Veriff OÜ</h3>
+                        <h3 class="place">Securespells OÜ</h3>
                     </div>
                     <div class="job-meta">
-                        <div class="title">Senior Software Engineer (Machine Learning)</div>
-                        <div class="time">06.2021 - 01.2025</div>
+                        <div class="title">Founding Engineer</div>
+                        <div class="time">2025 – Present</div>
                     </div>
                     <div class="job-desc">
                         <ul>
-                            <li>Promoted to senior engineer in the machine learning group after consistently delivering high‑quality, production‑ready systems across the stack.</li>
-                            <li>Owned end‑to‑end services around ML models (data ingestion, training, evaluation, deployment, monitoring), ensuring they could be safely iterated on at scale.</li>
-                            <li>Worked closely with researchers and product teams to turn experimental models into reliable, observable production features.</li>
-                            <li>Drove improvements to CI/CD, testing, and observability for ML services to reduce regressions and on‑call incidents.</li>
+                            <li>Designed and built a production backend system from scratch, including API layer, PostgreSQL data model, Kafka-based event streaming, Redis caching, and internal business logic services.</li>
+                            <li>Architected and implemented a custom risk-scoring engine to evaluate transactions and automate decision flows.</li>
+                            <li>Defined deployment architecture and infrastructure patterns to ensure scalability and observability from day one.</li>
+                            <li>Owned end-to-end delivery: requirements, architecture, implementation, testing, and production rollout.</li>
+                            <li>Built MVP and deployed to production infrastructure; currently serving early customers in production.</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="item">
                     <div class="work-place">
-                        <h3 class="place">Veriff OÜ</h3>
+                        <h3 class="place">Byteweld OÜ</h3>
                     </div>
                     <div class="job-meta">
-                        <div class="title">Software Engineer (Machine Learning)</div>
-                        <div class="time">03.2019 - 06.2021</div>
+                        <div class="title">Founder / Independent Systems Engineer</div>
+                        <div class="time">2024 – Present</div>
                     </div>
                     <div class="job-desc">
                         <ul>
-                            <li>Joined the machine learning team as a full‑stack engineer working across databases, backend services, frontend, and SDKs.</li>
-                            <li>Implemented and maintained APIs and internal tools that exposed ML capabilities to other teams and products.</li>
-                            <li>Improved system robustness and performance through better data modeling, caching strategies, and careful profiling.</li>
+                            <li>Designed and evaluated AI-assisted development workflows to accelerate integration-heavy backend delivery, measured impact on implementation speed and engineering throughput.</li>
+                            <li>Delivered integration-heavy backend systems using structured prompt-driven development approaches.</li>
+                            <li>Advising on backend architecture and system integration strategy.</li>
                         </ul>
                     </div>
                 </div>
@@ -214,41 +219,6 @@
             </div>
         </section>
 
-        <section id="education-section" class="education-section section">
-            <h2 class="section-title">Education</h2>
-            <div class="row">
-                <div class="item col-12 col-md-2"></div>
-                <div class="item col-12 col-md-4">
-                    <div class="item-inner">
-                        <h3 class="degree">Electroenergetics</h3>
-                        <div class="education-body">
-                            Tallinn University of Technology
-                        </div>
-                        <div class="time">2010 - 2012</div>
-                        <div class="desc">
-                        </div>
-                    </div>
-                </div>
-                <div class="item col-12 col-md-1"></div>
-
-                <div class="item col-12 col-md-4">
-                    <div class="item-inner">
-                        <h3 class="degree">Secondary education</h3>
-                        <div class="education-body">
-                            Carl Robert Jakobson Gymnasium
-                        </div>
-                        <div class="time">1998-2010</div>
-                        <div class="desc">
-                            Class with English emphasis.
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-        </section>
-
-
         <section id="skills-section" class="skills-section section text-center">
             <h2 class="section-title">Professional Skills</h2>
             <div class="top-skills">
@@ -299,25 +269,32 @@
                 <div class="misc-skills">
                     <span class="skill-tag">Machine Learning workflows</span>
                     <span class="skill-tag">C/C++ (legacy / embedded)</span>
-                    <span class="skill-tag">Frontend basics</span>
                 </div>
             </div>
 
+        </section>
+
+        <section id="education-section" class="education-section section">
+            <h2 class="section-title">Education</h2>
+            <div class="row">
+                <div class="item col-12 col-md-6 mx-auto">
+                    <div class="item-inner">
+                        <h3 class="degree">Electroenergetics</h3>
+                        <div class="education-body">
+                            Tallinn University of Technology
+                        </div>
+                        <div class="time">2010 - 2012</div>
+                        <div class="desc">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="certificates-section" class="skills-section section text-center">
             <h2 class="section-title">Certificates</h2>
             <div class="top-skills">
                 <div class="row justify-content-center">
-                    <div class="item col-12 col-md-4">
-                        <div class="item-inner">
-                            <h4 class="skill-name">Complete Ethical Hacking Bootcamp</h4>
-                            <div class="level">Udemy</div>
-                            <div class="desc">
-                                <a href="https://www.ud.my/UC-0c1f8131-a2a7-4e13-8e1f-1ae2f96ca18b/">Verification link</a>
-                            </div>
-                        </div>
-                    </div>
                     <div class="item col-12 col-md-4">
                         <div class="item-inner">
                             <h4 class="skill-name">Disaster Risk Monitoring Using Satellite Imagery</h4>
@@ -327,62 +304,12 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="item col-12 col-md-4">
-                        <div class="item-inner">
-                            <h4 class="skill-name">Python and Machine Learning for Asset Management</h4>
-                            <div class="level">EDHEC Business School</div>
-                            <div class="desc">
-                                <a href="https://coursera.org/verify/SB3UZ49XKNNG">Verification link</a>
-                            </div>
-                        </div>
-                    </div>
                     <div class="item col-12 col-md-4">
                         <div class="item-inner">
                             <h4 class="skill-name">End-to-End Machine Learning with TensorFlow on Google Cloud</h4>
                             <div class="level">Google Cloud</div>
                             <div class="desc">
                                 <a href="https://coursera.org/verify/5343JV8QGX9T">Verification link</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item col-12 col-md-4">
-                        <div class="item-inner">
-                            <h4 class="skill-name">Image Super Resolution Using Autoencoders in Keras</h4>
-                            <div class="level">Coursera Project Network</div>
-                            <div class="desc">
-                                <a href="https://coursera.org/verify/A4FN8GGXSUKJ">Verification link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="item col-12 col-md-4">
-                        <div class="item-inner">
-                            <h4 class="skill-name">Using TensorFlow with Amazon Sagemaker</h4>
-                            <div class="level">Coursera Project Network</div>
-                            <div class="desc">
-                                <a href="https://coursera.org/verify/DJSA5VMGAFFL">Verification link</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item col-12 col-md-4">
-                        <div class="item-inner">
-                            <h4 class="skill-name">Python Tricks and Hacks for Productivity</h4>
-                            <div class="level">Coursera Project Network</div>
-                            <div class="desc">
-                                <a href="https://coursera.org/verify/FJLUCD27AUBA">Verification link</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item col-12 col-md-4">
-                        <div class="item-inner">
-                            <h4 class="skill-name">Neural Networks and Deep Learning</h4>
-                            <div class="level">DeepLearning.AI</div>
-                            <div class="desc">
-                                <a href="https://coursera.org/verify/RK6XKZADWL3G">Verification link</a>
                             </div>
                         </div>
                     </div>
